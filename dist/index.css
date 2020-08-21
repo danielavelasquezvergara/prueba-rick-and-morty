@@ -1,0 +1,23 @@
+body {
+  width: 80%;
+  background-color: black;
+  margin: 0 auto;
+}
+header,
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+  color: whitesmoke;
+}
+#character {
+  display: flex;
+  flex-flow: row wrap;
+}
+.img-thumbnail {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
