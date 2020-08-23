@@ -2,6 +2,14 @@ body {
     background: black;
    
   }
+nav {
+  background-color: #47A8C5;
+
+}
+
+#personajes {
+  justify-content: center;
+}
 
   .personaje{
     width: 200px;
