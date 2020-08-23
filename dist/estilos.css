@@ -3,8 +3,13 @@ body {
    
   }
 nav {
-  background-color: #47A8C5;
+  background-color: black;
 
+}
+.img__navbar {
+  width: 250px;
+  height: 100%;
+  padding: 20px;
 }
 
 #personajes {
@@ -23,3 +28,23 @@ nav {
   .card-body{
     display: none;
   }
+.card__personajes {
+  background-color:black;
+  color: blueviolet;
+  font-weight: bold;
+}
+.card-img, .card-img-top {
+  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.img__footer {
+  height: 200px;
+  width: 100%;
+  padding: 40px;
+}
+
+.imagen {
+  width: 250px;
+  height: 100%;
+}

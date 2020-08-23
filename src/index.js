@@ -7,8 +7,8 @@ rickMorty.then((personajes) => {
         person.innerHTML +=  `
         
         
-  <div class="card m-3">
-    <img id="${element.id}" src="${element.img}" class="card-img-top imagen rounded-circle" alt="image">
+  <div class="card m-3 card__personajes">
+    <img id="${element.id}" src="${element.img}" class="card-img-top imagen" alt="image" >
     <div class="card-body ${element.id}">
       <h5 class="card-title">${element.nombre}</h5>
       <p class="card-text">${element.genero}</p>
